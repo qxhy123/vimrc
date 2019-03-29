@@ -176,6 +176,7 @@ set wildmenu
 source $VIMRUNTIME/vimrc_example.vim
 "缺省不产生备份文件
 set nobackup
+set noundofile
 set noswapfile
 set nowritebackup
 "在输入括号时光标会短暂地跳到与之相匹配的括号处，不影响输入
